@@ -1,6 +1,3 @@
-import math
-import sys
-
 import requests
 
 
@@ -17,3 +14,4 @@ def greet(who_to_greet):
 """ print(greet("world"))
 print(greet("shriram")) """
 print(requests.get("https://slproweb.com/products/Win32OpenSSL.html").status_code)
+print(r.ok)
