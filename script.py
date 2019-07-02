@@ -1,5 +1,5 @@
 import requests
-
+import sys
 
 print(sys.version)
 print(sys.executable)
@@ -12,6 +12,6 @@ def greet(who_to_greet):
 
 print(greet("world"))
 print(greet("shriram"))
-print(requests.get("https://slproweb.com/products/Win32OpenSSL.html").status_code)
+r = requests.get("https://slproweb.com/products/Win32OpenSSL.html")
 print(r.ok)
 
